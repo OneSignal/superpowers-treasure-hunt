@@ -1,6 +1,6 @@
 # The JS Treasure Hunt
 
-This repository contains everything from our 'Coding Superpowers' javascript
+This repository contains everything from the 'Coding Superpowers' javascript
 treasure hunt we did at OneSignal. This treasure hunt was the first thing our
 new coders got to really work on on their own so it is set up in a way to start
 with a small problem and then use the answer to that as part of solving the
@@ -10,12 +10,12 @@ The idea for the project started as we were talking about encryption in general
 and how we could 'encode' a message so that WE could still decode and read it
 but someone else wouldn't be able to without knowing what to do. Together we
 decided on how it should work (eg, should we create a map of letters or a list
-and then 'rotate' them like how rot13 works) and then wrote the 'encode' version
-together before sending everyone off to write the decode version by themselves
+and then 'rotate' them like how rot13 works?) and then wrote the 'encode' version
+together before sending everyone off to write the 'decode' version by themselves
 (and fix the hidden bug!).
 
 The treasure hunt involves solving a series of steps using the encode and decode
-functions written above (and modifying them to accept different encoding offset
+functions (and modifying them to accept a different encoding offset
 than the original hardcoded version). We had some people volunteer to help out
 so we made them the clue holders and each step would tell you a new person to
 message and sometimes what to say.
@@ -24,10 +24,10 @@ message and sometimes what to say.
 
 Most of the clue content is configured and generated with the
 treasure-hunt-generator.js script. All of these files include the
-encoding/decoding logic to make them easier to understand for the new folks (no
+encoding/decoding logic to make them easier to understand for new folks (no
 need to learn about imports yet) and to show the incremental changes along the
 way. The clues are printed below in case you want to get some of the fun without
-haing to run the code.
+having to run the code.
 
 
 ### Step 0:
@@ -57,9 +57,9 @@ Hi! I'm hot on the trail and ready for the next clue!
 
 ### Clue 3:
 
-For this step the treasure hunter encodes the message in Clue 2 with an offset
+For this step, the treasure hunter encodes the message in Clue 2 with an offset
 of their choosing (between 2 and 100, although it doesn't actually matter since
-it loops) and the third clue holder needs to enter the encoded message into
+it loops) and the third clue holder will enter the encoded message into
 the script to generate the final clue using the same offset.
 
 Example output if the offset was 25:
