@@ -23,7 +23,7 @@ message and sometimes what to say.
 ## THE TREASURE HUNT
 
 Most of the clue content is configured and generated with the
-treasure-hunt-generator.js script. All of these files include the
+[treasure-hunt-generator.js](https://github.com/OneSignal/superpowers-treasure-hunt/blob/main/treasure-hunt-generator.js) script. All of these files include the
 encoding/decoding logic to make them easier to understand for new folks (no
 need to learn about imports yet) and to show the incremental changes along the
 way. The clues are printed below in case you want to get some of the fun without
@@ -34,7 +34,7 @@ having to run the code.
 
 Everyone needed to write the decodeMessage method (and fix the bug
 preventing the simple answer from working correctly). An example of that being
-fixed is in answers/step0-answer.js
+fixed is in [answers/step0-answer.js](https://github.com/OneSignal/superpowers-treasure-hunt/blob/main/answers/step0-answer.js)
 
 
 ### Clue 1:
