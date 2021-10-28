@@ -57,7 +57,7 @@ function rotateLetter(letter, offset) {
     newIndex = newIndex - LETTERS.length;
   }
 
-while (newIndex < 0) {
+  while (newIndex < 0) {
     newIndex = newIndex + LETTERS.length;
   }
 
